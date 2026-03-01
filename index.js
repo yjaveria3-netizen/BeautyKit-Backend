@@ -5,8 +5,8 @@ const jwt = require('jsonwebtoken');
 const { v4: uuidv4 } = require('uuid');
 
 const app = express();
-const PORT = 5000;
-const JWT_SECRET = 'beaukit-secret-key-2024';
+const PORT = process.env.PORT || 5000;
+const JWT_SECRET = process.env.JWT_SECRET || 'beaukit-secret-key-2024';
 
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
@@ -380,15 +380,15 @@ app.post('/api/analyze-pixels', (req, res) => {
     const { undertone, depth } = analyzeSkinTone(r, g, b);
     const recommendations = getRecommendations(undertone, depth);
     const toneNames = {
-      'light-warm':'Porcelain Warm','light-medium-warm':'Fair Warm','medium-warm':'Golden Beige',
-      'medium-deep-warm':'Warm Bronze','deep-warm':'Deep Mahogany','light-cool':'Porcelain Cool',
-      'light-medium-cool':'Fair Cool','medium-cool':'Cool Beige','medium-deep-cool':'Cool Tan',
-      'deep-cool':'Deep Ebony','light-neutral':'Porcelain','light-medium-neutral':'Fair Neutral',
-      'medium-neutral':'Natural Beige','medium-deep-neutral':'Neutral Tan','deep-neutral':'Rich Espresso'
+      'light-warm': 'Porcelain Warm', 'light-medium-warm': 'Fair Warm', 'medium-warm': 'Golden Beige',
+      'medium-deep-warm': 'Warm Bronze', 'deep-warm': 'Deep Mahogany', 'light-cool': 'Porcelain Cool',
+      'light-medium-cool': 'Fair Cool', 'medium-cool': 'Cool Beige', 'medium-deep-cool': 'Cool Tan',
+      'deep-cool': 'Deep Ebony', 'light-neutral': 'Porcelain', 'light-medium-neutral': 'Fair Neutral',
+      'medium-neutral': 'Natural Beige', 'medium-deep-neutral': 'Neutral Tan', 'deep-neutral': 'Rich Espresso'
     };
     const toneName = toneNames[`${depth}-${undertone}`] || `${depth} ${undertone}`;
     res.json({
-      skinTone: { name: toneName, undertone, depth, rgb: { r, g, b }, hex: `#${r.toString(16).padStart(2,'0')}${g.toString(16).padStart(2,'0')}${b.toString(16).padStart(2,'0')}` },
+      skinTone: { name: toneName, undertone, depth, rgb: { r, g, b }, hex: `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}` },
       recommendations
     });
   } catch (err) { res.status(500).json({ error: err.message }); }
