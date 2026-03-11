@@ -11,8 +11,8 @@
 [![JWT](https://img.shields.io/badge/JWT-Auth-orange?style=flat-square&logo=jsonwebtokens&logoColor=white)](https://jwt.io)
 [![bcrypt](https://img.shields.io/badge/bcryptjs-Secure-blue?style=flat-square)](https://www.npmjs.com/package/bcryptjs)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](./LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/your-username/BeautyKit/pulls)
-[![Stars](https://img.shields.io/github/stars/your-username/BeautyKit?style=flat-square&color=gold)](https://github.com/your-username/BeautyKit/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/beautykit/pulls)
+[![Stars](https://img.shields.io/github/stars/beautykit/BeautyKit?style=flat-square&color=gold)](https://github.com/beautykit/BeautyKit/stargazers)
 
 ---
 
@@ -119,7 +119,7 @@ Make sure you have the following installed:
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/your-username/BeautyKit.git
+git clone https://github.com/beautykit/BeautyKit.git
 cd BeautyKit/backend
 ```
 
@@ -1225,13 +1225,13 @@ We have big dreams for BeautyKit's backend. Here's what's coming:
 
 If BeautyKit has been useful or interesting to you, **please give it a star on GitHub**. It takes 2 seconds and it means the world to open-source maintainers. It also helps others discover the project.
 
-👉 **[⭐ Star BeautyKit on GitHub](https://github.com/your-username/BeautyKit)**
+👉 **[⭐ Star BeautyKit on GitHub](https://github.com/beautykit/BeautyKit)**
 
 ### 🍴 Fork it!
 
 Ready to contribute code? Fork the repository and make it your own playground.
 
-👉 **[🍴 Fork BeautyKit on GitHub](https://github.com/your-username/BeautyKit/fork)**
+👉 **[🍴 Fork BeautyKit on GitHub](https://github.com/beautykit/BeautyKit/fork)**
 
 ---
 
@@ -1329,7 +1329,7 @@ New to the project? Here are some great starting points:
 
 ### 🐛 Reporting bugs
 
-Found a bug? Please [open an issue](https://github.com/your-username/BeautyKit/issues/new) with:
+Found a bug? Please [open an issue](https://github.com/beautykit/BeautyKit/issues/new) with:
 
 - A clear, descriptive title
 - Steps to reproduce
@@ -1339,7 +1339,7 @@ Found a bug? Please [open an issue](https://github.com/your-username/BeautyKit/i
 
 ### 💬 Suggesting features
 
-Have an idea? [Open a discussion](https://github.com/your-username/BeautyKit/discussions) or [create a feature request issue](https://github.com/your-username/BeautyKit/issues/new) with the `enhancement` label.
+Have an idea? [Open a discussion](https://github.com/beautykit/BeautyKit/discussions) or [create a feature request issue](https://github.com/beautykit/BeautyKit/issues/new) with the `enhancement` label.
 
 ---
 
@@ -1379,8 +1379,8 @@ See the full [LICENSE](./LICENSE) file for details.
 
 **If BeautyKit helped you, inspired you, or made you smile — please leave a ⭐ star!**
 
-[![Star on GitHub](https://img.shields.io/github/stars/your-username/BeautyKit?style=social)](https://github.com/your-username/BeautyKit/stargazers)
-[![Fork on GitHub](https://img.shields.io/github/forks/your-username/BeautyKit?style=social)](https://github.com/your-username/BeautyKit/fork)
+[![Star on GitHub](https://img.shields.io/github/stars/beautykit/BeautyKit?style=social)](https://github.com/beautykit/BeautyKit/stargazers)
+[![Fork on GitHub](https://img.shields.io/github/forks/beautykit/BeautyKit?style=social)](https://github.com/beautykit/BeautyKit/fork)
 
 ---
 
